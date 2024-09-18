@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.tabla-productos {
+  border-collapse: collapse; /* Quita los espacios entre celdas */
+  width: 80%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabla-productos th {
+  background-color: #800000;
+  color: white;
+}
+
+.tabla-productos tr:hover {
+  background-color: #ddd;
+}
